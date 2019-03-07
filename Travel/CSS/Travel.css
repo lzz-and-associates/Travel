@@ -1,0 +1,23 @@
+.TRVPlaceholder
+{
+	
+}
+.TRVNavPicks
+{
+	width: 9%!important;
+}
+.TRVNavPicks:hover
+{
+	width: 11%!important;
+}
+.TRVSmlrNavText
+{
+	padding: .3rem 1rem;
+}
+
+.TRVSmlNavPaddingd
+{
+	padding-right: 150px;
+}
+
+/* bootstart modified */
