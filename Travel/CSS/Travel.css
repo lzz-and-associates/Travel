@@ -1,15 +1,41 @@
-.TRVPlaceholder
-{
-	
-}
+/* David Woods Work Begins */
+/* ======================== */
+/* NavBars */
+/* ======================== */
+
+/* Bottom Nav */
+/* Nav Img*/
 .TRVNavPicks
 {
-	width: 9%!important;
+	height: 100px!important;
+	width: 100px!important;
+	transition-duration: 1s;
+	border-radius: 25px!important;
 }
 .TRVNavPicks:hover
 {
-	width: 11%!important;
+	height: 110px!important;
+	width: 110px!important;
+	transition-duration: 1s;
 }
+/* Nav Opacity*/
+.TRVNavOpacity
+{
+	opacity: .6;
+	transition-duration: 2s;
+}
+.TRVNavOpacity:hover
+{
+	opacity: 1;
+	transition-duration: 2s;
+}
+
+/* Top Nave dropdown on hover */
+.navbar-nav li:hover>.dropdown-menu {
+  display: block;
+}
+
+/* Mobile Nav */
 .TRVSmlrNavText
 {
 	padding: .3rem 1rem;
@@ -19,5 +45,39 @@
 {
 	padding-right: 150px;
 }
+/* ======================== */
+/* ======================== */
 
-/* bootstart modified */
+
+
+/* ======================== */
+/* Content Containers */
+/* ======================== */
+.TRVbackgroundWhite
+{
+	Background: white;
+	/* border-radius: 30%; */
+	padding: 5%;
+	border-style: none;
+	opacity: .8;
+	margin-top: 7%;
+	margin-bottom: 12%;
+	width: 80%;
+	border-radius: 25px!important;
+}
+/* ======================== */
+
+
+
+/* ======================== */
+/* Background Images */
+/* ======================== */
+#TRVBackgroundImages
+{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* ======================== */
+/* ======================== */
+/* David Woods Work Ends */
