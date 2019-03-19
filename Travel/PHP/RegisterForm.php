@@ -1,6 +1,6 @@
 <!-- Mingyu Zhang Work Begins -->
-<script src="register_mz.js"></script> 
-		<h2 style="color:red;">
+		<h1>Register For A Travel Experience Today</h1>
+			<h4 style="color:red;">
 			<?php
 				if (isset($_SESSION["message"]))
 				{
@@ -8,15 +8,14 @@
 					unset($_SESSION["message"]);
 				}
 			?>
-		</h2>
-		<h1>Register For A Travel Experience Today</h1>
+			</h4>
 			<div class='container backgroundWhite flex-column-reverse AntiNavAjustment'>
 				<!-- =========================================================================================== -->
 				<form method="get" id='theform' name='theform'  action='PHP/addCustomer.php'>
 					<!----------------------------------------->
 					<div class='input-group mb-3'>
 						<div class='input-group-prepend'>
-							<span class='input-group-text JPLableStyles'>Name</span>
+							<span class='input-group-text '>Name</span>
 						</div>
 						<input 
 						id='CustFirstName' 
@@ -35,7 +34,7 @@
 					</div>
 					<!----------------------------------------->
 					<div class='form-group'>
-						<label class='JPLableStyles' for='address'>Address</label>
+						<label class='' for='address'>Address</label>
 						<input 
 						type='text' 
 						class='form-control JPInputStyles' 
@@ -45,7 +44,7 @@
 					</div>
 						<!----------------------------------------->
 					<div class='form-group'>
-						<label class='JPLableStyles' for='CustCity'>City:</label>
+						<label class='' for='CustCity'>City:</label>
 						<input
 						class='form-control JPInputStyles' 
 						id='CustCity' 
@@ -54,7 +53,7 @@
 					</div>
 						<!----------------------------------------->	
 					<div class='form-group'>
-						<label class='JPLableStyles' for='CustProv'>Province:</label>
+						<label class='' for='CustProv'>Province:</label>
 						<input
 						class='form-control JPInputStyles' 
 						id='CustProv' 
@@ -63,7 +62,7 @@
 					</div>
 						<!----------------------------------------->	
 					<div class='form-group'>
-						<label class='JPLableStyles' for='CustCountry'>Country:</label>
+						<label class='' for='CustCountry'>Country:</label>
 						<input
 						class='form-control JPInputStyles' 
 						id='CustCountry' 
@@ -73,7 +72,7 @@
 						<!----------------------------------------->
 					<div class='input-group mb-3'>
 						<div class='input-group-prepend'>
-							<span class='input-group-text JPLableStyles'>Postal Code</span>
+							<span class='input-group-text '>Postal Code</span>
 						</div>
 						<input 
 						type='text' 
@@ -87,7 +86,7 @@
 						<!----------------------------------------->
 					<div class='input-group mb-3'>
 						<div class='input-group-prepend'>
-							<span class='input-group-text JPLableStyles'>Home Phone Number</span>
+							<span class='input-group-text '>Home Phone Number</span>
 						</div>
 						<input 
 						type='tel' 
@@ -101,7 +100,7 @@
 						<!----------------------------------------->
 					<div class='input-group mb-3'>
 						<div class='input-group-prepend'>
-							<span class='input-group-text JPLableStyles'>Business Phone Number</span>
+							<span class='input-group-text '>Business Phone Number</span>
 						</div>
 						<input 
 						type='tel' 
@@ -114,7 +113,7 @@
 					</div>
 						<!----------------------------------------->
 					<div class='form-group'>
-						<label class='JPLableStyles' for='CustEmail'>Enter Email:</label>
+						<label class='' for='CustEmail'>Enter Email:</label>
 						<div class='input-group mb-3'>
 							<input 
 							type='text' 
@@ -127,7 +126,7 @@
 					</div>
 						<!----------------------------------------->
 					<div class='form-group'>
-						<label class='JPLableStyles' for='CustPassword'>Password:</label>
+						<label class='' for='CustPassword'>Password:</label>
 						<input 
 						type='password' 
 						class='form-control JPInputStyles' 
@@ -152,6 +151,5 @@
 					</form>
 					<!-- =========================================================================================== -->
 				</div>
-				<h2 style="color:red;">
-			</h2>
+
 <!-- Mingyu Zhang Work Ends -->

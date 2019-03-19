@@ -17,7 +17,7 @@
 		private $CustPassword;
 	
 		
-		
+		//construct function
 		public function __construct($CustomerId,$CustFirstName,$CustLastName,$CustAddress,$CustCity,$CustProv,$CustPostal,$CustCountry,$CustHomePhone,$CustBusPhone,$CustEmail,$CustPassword)
 		{
 			$this->CustomerId = $CustomerId;
@@ -146,22 +146,30 @@
 			$this->CustEmail=$CustEmail;
 		}
 		
+		// hash the inputpassword
 		public function getCustPassword()
 		{
-			return $this->CustPassword;
+			return password_hash($this->CustPassword, PASSWORD_BCRYPT, ['cost' => 10]);
+			//return $this->CustPassword;
 		}
 		
 		public function setCustPassword($CustPassword)
 		{
+			
 			$this->CustPassword=$CustPassword;
 		}
 		
+		//public static function password_encrypt($CustPassword) 
+		//{
+		//return password_hash($CustPassword, PASSWORD_BCRYPT, ['cost' => 10]);
+		//}
+		//
 		public function __toString()
 		{
 			return "Customer: " . $this->CustomerId . "," . $this->CustFirstName. "," . $this->CustLastName;
 		}
 	}
-
+	// function to insert customer information into customer table in database
 	function insertCustomerObject($customer)
 	{
 	$sql= "INSERT INTO customers (CustomerId, CustFirstName, CustLastName,CustAddress,CustCity,CustProv,CustPostal,CustCountry,CustHomePhone,CustBusPhone,CustEmail,CustPassword) VALUES(NULL,?,?,?,?,?,?,?,?,?,?,?)";

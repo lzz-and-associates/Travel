@@ -1,8 +1,9 @@
 <?php
 // Mingyu Zhang Work Begins
+	// start the session and load Customer class
 	session_start();
 	include ("Customer.php");
-	
+	// validate that each cell of the form is filled.
 	function validate($data)
 	{
 		$message = "";
@@ -15,7 +16,7 @@
 		}
 		return $message;
 	}
-	
+	// insert registration info into database
 	if(isset($_REQUEST["CustFirstName"]))
 	{
 		$messages = validate($_REQUEST);
