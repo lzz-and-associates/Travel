@@ -35,9 +35,9 @@
 				}
 				else
 				{
-					$_SESSION["message"] = "<h1>It Worked!</h1>";
-					header("Location: secret.php");
-					$returnpage = "secret.php";
+					$_SESSION["AgentMessage"] = "<h1>It Worked!</h1>";
+					header("Location: ./Admin.php");
+					$returnpage = "Admin.php";
 					
 				}
 				unset($_SESSION["returnpage"]);
