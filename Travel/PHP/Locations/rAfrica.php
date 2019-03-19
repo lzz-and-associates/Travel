@@ -1,3 +1,3 @@
 <?php
-
+$Location = "Africa";
 ?>
