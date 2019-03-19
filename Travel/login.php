@@ -33,8 +33,8 @@
 	<!-- Nav Bar -->
 	<!-- --------------------------------------------------- -->
 	<?php
-		include('PHP/LoginBar_LoginV.php');
-		include('PHP/NavBarGoBack_LoginV.php');
+		include('PHP/NavBar/LoginBar_LoginV.php');
+		include('PHP/NavBar/NavBarGoBack_LoginV.php');
 	?>
 	<!-- --------------------------------------------------- -->
 	<!-- Nav Bar -->

@@ -30,8 +30,8 @@
 	<!-- Nav Bar -->
 	<!-- --------------------------------------------------- -->
 	<?php
-		include('PHP/LoginBar.php');
-		include('PHP/NavBar.php');
+		include('PHP/NavBar/LoginBar.php');
+		include('PHP/NavBar/NavBar.php');
 	?>
 	<!-- --------------------------------------------------- -->
 	<!-- Nav Bar -->
@@ -48,7 +48,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Home.php');
 			?>
 		</div>
 	</div>
@@ -61,7 +61,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/About.php');
 			?>
 		</div>
 	</div>
@@ -74,7 +74,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placehtrdsyhrtdsh.php');
+				include('PHP/Contact.php');
 			?>
 		</div>
 	</div>
@@ -87,7 +87,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rAfrica.php');
 			?>
 		</div>
 	</div>
@@ -100,7 +100,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rAsia.php');
 			?>
 		</div>
 	</div>
@@ -113,7 +113,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rAustraliaNewZealand.php');
 			?>
 		</div>
 	</div>
@@ -126,7 +126,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rEuropeUK.php');
 			?>
 		</div>
 	</div>
@@ -139,7 +139,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rMediterranean.php');
 			?>
 		</div>
 	</div>
@@ -152,7 +152,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rMiddleEast.php');
 			?>
 		</div>
 	</div>
@@ -165,7 +165,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rNorthAmerica.php');
 			?>
 		</div>
 	</div>
@@ -178,7 +178,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rSouthAmerica.php');
 			?>
 		</div>
 	</div>
@@ -191,7 +191,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rSouthPacific.php');
 			?>
 		</div>
 	</div>
@@ -204,7 +204,7 @@
 		<!-- Content -->
 		<div class="cover2 container TRVbackgroundWhite">
 			<?php				
-				include('PHP/Placeholder.php');
+				include('PHP/Locations/rOther.php');
 			?>
 		</div>
 	</div>
